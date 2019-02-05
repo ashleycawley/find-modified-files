@@ -16,7 +16,7 @@ FULLSCRIPTPATH="`pwd`/$SCRIPTNAME"
 
 # Main Script
 
-read -p "Path to check: " SUPPLIEDPATH
+read -e -p "Path to check: " SUPPLIEDPATH
 
 read -p "Number of days piror: " DAYS
 
